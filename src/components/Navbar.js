@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { BsCart2 } from "react-icons/bs";
-import Logo from "../Assets/Logo.svg";
+import Logo from "../Assets/Logo.png"
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 import HomeIcon from "@mui/icons-material/Home";
@@ -46,7 +46,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <img className="Logo" src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>

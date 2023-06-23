@@ -10,9 +10,17 @@ const Home = () => {
           <img src={BannerBackground} alt="" />
         </div> */}
         <div className="home-text-section">
-          <h1 className="primary-heading">Your favourite cafe</h1>
+          <div className="home-text-section-container">
+            <h1 className="primary-heading">
+              "Elevate your wellness routine with the magic of coffee"
+            </h1>
+          </div>
+
           <p className="primary-text">
-            Healthy switcher fjdk;sjfks djflsfkldsnfhsidl fhsdlifnsld
+            Coffee, when consumed in moderation, can be part of a healthy
+            lifestyle. It contains natural compounds that offer potential health
+            benefits. The caffeine found in coffee can provide a temporary boost
+            in energy and mental alertness.
           </p>
           <button className="secondary-button">
             Order Now
@@ -20,7 +28,7 @@ const Home = () => {
           </button>
         </div>
         <div className="home-image-container">
-            <img src={BannerImage} alt=""/>
+            <img className="home-image" src={BannerImage} alt=""/>
 
         </div>
       </div>

@@ -12,17 +12,12 @@ const About = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
-        <h1 className="primary-heading">loremd dfjfihsdf fhdsf dfdjsklf</h1>
+        <p className="primary-subheading-about">About</p>
       </div>
       <p className="primary-text">
-        fhdslcds gfdguhfg gfhogfdhohgd jgdfughdfug dgjdhfgd hghio gfhdlkgd g
-        dgodgdhgndm gdio
+      Welcome to Java Junction, your ultimate destination for exceptional coffee and memorable experiences. At Java Junction, we believe that a great cup of coffee is more than just a beverage; it's a catalyst for connection, inspiration, and rejuvenation. Our dedicated team of passionate baristas meticulously craft each cup, sourcing the finest beans from around the world and applying their expertise to create a perfect balance of flavor and aroma. 
       </p>
-      <p className="primary-text">
-        fhdslcds gfdguhfg gfhogfdhohgd jgdfughdfug dgjdhfgd hghio gfhdlkgd g
-        dgodgdhgndm gdio
-      </p>
+
       <div className="about-button-container">
         <button className="secondary-button">Learn More</button>
         <button className="watch-video-button">{""}
